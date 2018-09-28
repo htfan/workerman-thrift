@@ -7,21 +7,21 @@ class UserHandler implements UserIf {
      * @return int
      */
     public function userInt($param){
-        return $param;
+        return "我要返回整数";
     }
     /**
      * @param string $param
      * @return string
      */
     public function userString($param){
-        return $param;
+        return false;
     }
     /**
      * @param bool $param
      * @return bool
      */
     public function userBoolean($param){
-        return $param;
+        return "我要返回布尔值";
     }
     /**
      */
