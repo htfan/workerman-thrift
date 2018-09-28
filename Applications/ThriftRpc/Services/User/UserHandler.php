@@ -14,7 +14,7 @@ class UserHandler implements UserIf {
      * @return string
      */
     public function userString($param){
-        return false;
+        return 369251;
     }
     /**
      * @param bool $param
