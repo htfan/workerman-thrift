@@ -7,8 +7,5 @@ class HelloWorldHandler implements HelloWorldIf {
       return "Hello $name";
   }
 
-    public function test($name)
-    {
-        return "test $name";
-    }
+
 }
