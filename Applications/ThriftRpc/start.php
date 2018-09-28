@@ -19,6 +19,10 @@ $worker = new ThriftWorker('tcp://0.0.0.0:9090');
 $worker->count = 16;
 $worker->class = 'HelloWorld';
 
+$user_worker = new ThriftWorker('tcp://0.0.0.0:9191');
+$user_worker->count = 16;
+$user_worker->class = 'User';
+
 
 // 如果不是在根目录启动，则运行runAll方法
 if(!defined('GLOBAL_START'))
